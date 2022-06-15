@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <iostream>
 
-void foo(const int* x);
-int& x;
-
+void foo(const int& x);
+std::shared_ptr<int> x;
 int main()
 {
     foo(&x);

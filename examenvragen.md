@@ -719,7 +719,7 @@ You are writing a function selectYoungerThan that takes a std::vector<Person*> a
 
 How should you best pass the parameter?
 
-`const T&` / `T`
+`T`
 
 ### Vraag 15
 You are creating a chess application. Pieces are represented by a Piece class, and each Piece object keeps track of an Image object that represents the piece visually. The same Image object is reused for pieces of the same type, e.g., all pawns use the same Image.
