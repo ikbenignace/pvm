@@ -605,6 +605,14 @@ const T& x;
 
 `None of the above works, or it's impossible`
 
+### Vraag 30
+
+```cpp
+void foo(T x);
+T** x;
+```
+
+`foo(**x)`
 
 ## Pass function
 
