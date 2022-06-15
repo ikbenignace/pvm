@@ -195,6 +195,21 @@ Antwoord: `double`
 
 Antwoord: `double**`
 
+### Vraag 22
+![type22](/img/type22.png)
+
+Antwoord: ``
+
+### Vraag 23
+![type23](/img/type23.png)
+
+Antwoord: `double`
+
+### Vraag 24
+![type24](/img/type24.png)
+
+Antwoord: `double***`
+
 ## Classes
 
 ### Vraag 1
