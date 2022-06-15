@@ -15,5 +15,5 @@ int main()
     foo(x) const;
     foo(x*);
     foo(**x);
-	foo(&*x);
+    foo(&*x);
 }
