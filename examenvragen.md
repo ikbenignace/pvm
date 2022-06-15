@@ -312,6 +312,11 @@ Antwoord: `[a]`
 
 `d`
 
+### Vraag 4b
+![code4b](/img/code4b.png)
+
+`b`
+
 ### Vraag 5
 ![code5](/img/code5.png)
 
@@ -321,6 +326,11 @@ Antwoord: `[a]`
 ![code6](/img/code6.png)
 
 `e`
+
+### Vraag 6b
+![code6b](/img/code6b.png)
+
+`g`
 
 ### Vraag 7
 ![code7](/img/code7.png)
