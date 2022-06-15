@@ -746,6 +746,8 @@ How should you best pass the parameter?
 
 
 ## Reverse
+
+### Vraag 1
 You are creating a function that reverses a std::vector<T> in place.
 
 Select all signatures that allow this functionality to be implemented.
@@ -758,6 +760,7 @@ void reverse(std::vector<T>* xs)
 void reverse(std::shared_ptr<T> xs)	
 ```
 
+### Vraag 2
 
 You're making a game with different kinds of units (tanks, infantry, ...). The units are implemented as a class hierarchy with supertype Unit. You are writing a function render that draws the unit to the screen. No changes need to be made to the Unit object.
 
@@ -769,6 +772,8 @@ void render(std::shared_ptr<Unit>)
 void render(const Unit&)		
 void render(Unit*)
 ```
+
+### Vraag 3
 
 You are creating a function count that counts the number of elements in std::vector<T>.
 
@@ -783,6 +788,8 @@ int count(std::vector<T>*)
 int count(std::vector<T>&)
 ```
 
+### Vraag 4
+
 You have a class hierarchy of shapes with abstract supertype Shape. You are writing a function clear_color that takes a shape and changes its color to transparent.
 Select all signatures that allow this functionality to be implemented.
 Selected Answers:void clear_color(Shape)
@@ -795,3 +802,14 @@ Shape&
 shared_ptr
 ```
 
+### Vraag 5
+I wish to store Person objects in a vector. I do not want to preoccupy myself with memory management. In other words, I don't want to have to manually free each Person object in the vector: deallocation should happen automatically.
+Which types of vector-of-Persons do satisfy this requirement?
+If it matters: Person is not part of a class hierarchy.
+
+Selected Answers:
+```
+std::vector<std::unique_ptr<Person>>
+std::vector<std::shared_ptr<Person>>
+std::vector<Person>
+```
