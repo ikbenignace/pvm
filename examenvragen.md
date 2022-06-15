@@ -16,7 +16,7 @@ How many bits are minimally required to store 950 student ids?
 A student id starts with either r or s and is then followed by 7 decimal digits.
 
 ```
-math.ceil(math.log2(2*(10**7)) * 150) = ...
+math.ceil(math.log2(2*(10**7)) * 950) = ...
 ```
 
 ### Vraag 3
