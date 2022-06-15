@@ -662,7 +662,7 @@ You are keeping a central Log object, which is used all over your codebase to wr
 
 How should you best pass the parameter?
 
-`antwoord`
+`shared_ptr<T>`
 
 ### Vraag 7
 You are writing a templated function called contains that checks if some value x is an element of some vector<T>.
@@ -697,7 +697,7 @@ You are writing a function with type parameter T. The function expects a value o
 
 How should you best pass the parameter?
 
-`antwoord`
+`const T&`
 
 ### Vraag 12
 You need to pass a std::vector<double> to a function. The function takes over full ownership.
@@ -749,6 +749,32 @@ You need to pass a std::vector<double> to a function. The function stores it som
 How should you best pass the parameter?
 
 `shared_ptr<T>`
+
+### Vraag 18
+You create your own version of std::vector<T>. Internally, you rely on an array in which you store your data.
+
+How should you best pass the parameter?
+
+`unique_ptr<T>`
+
+### Vraag 19
+ 	
+
+You are creating a templated collection class (such as std::vector<T>). The add method takes an element and copies it to its internal data structure.
+
+How should you best pass the parameter?
+
+`const T&`
+
+### Vraag 20
+ 	
+
+You are writing a templated function called contains that checks if some value x is an element of some vector<T>.
+
+How should you best pass the parameter?
+
+`const T&`
+
 
 
 ## Reverse
