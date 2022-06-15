@@ -21,9 +21,13 @@ struct Foo
 //     return foo;
 // };
 
-void bar(Foo* foo) {}
+// void bar(Foo foo) {}
 
-//void bar() {Foo foo;}
+// Foo* bar(Foo foo) {
+//     return &foo;
+// };
+
+void bar(Foo* foo) {}
 
 int main()
 

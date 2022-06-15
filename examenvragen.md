@@ -34,7 +34,7 @@ math.ceil(math.log2(52**10) * 450) = ...
 How many bits are minimally necessary to store 800 times of day up to the second?
 
 ```
-math.ceil(math.log2(2*(86400)) * 800) = ...
+math.ceil(math.log2(86400) * 800) = ...
 ```
 
 ### Vraag 5
@@ -152,7 +152,7 @@ Antwoord: ``
 ### Vraag 11
 ![type11](/img/type11.png)
 
-Antwoord: ``
+Antwoord: `char`
 ### Vraag 12
 ![type12](/img/type12.png)
 
@@ -172,7 +172,7 @@ Antwoord: `bool**`
 ### Vraag 16
 ![type16](/img/type16.png)
 
-Antwoord: ``
+Antwoord: `bool*`
 ### Vraag 17
 ![type17](/img/type17.png)
 
@@ -263,7 +263,7 @@ Antwoord: `[a]c`
 ### Vraag 13
 ![classes13](/img/classes13.png)
 
-Antwoord: `[a]c`
+Antwoord: `[abc]c`
 ### Vraag 14
 ![classes14](/img/classes14.png)
 
@@ -283,11 +283,11 @@ Antwoord: `[ac]`
 ### Vraag 18
 ![classes18](/img/classes18.png)
 
-Antwoord: ``
+Antwoord: `[a]`
 ### Vraag 19
 ![classes19](/img/classes19.png)
 
-Antwoord: ``
+Antwoord: `[ac]`
 ### Vraag 20
 ![classes20](/img/classes20.png)
 
@@ -297,27 +297,31 @@ Antwoord: `[a]`
 
 ### Vraag 1
 ![code1](/img/code1.png)
-``
+`a`
 ### Vraag 2
 ![code2](/img/code2.png)
-``
+`c`
 ### Vraag 3
 ![code3](/img/code3.png)
-``
+`b`
 ### Vraag 4
 ![code4](/img/code4.png)
-``
+`e`
 ### Vraag 5
 ![code5](/img/code5.png)
-``
+`e`
 
 ### Vraag 6
 ![code6](/img/code6.png)
-``
+`e`
 
 ### Vraag 7
 ![code7](/img/code7.png)
-``
+`f`
+
+### Vraag 8
+![code8](/img/code8.png)
+`h`
 
 ## You are given
 
@@ -538,14 +542,14 @@ You are dealing with a class hierarchy of shapes, with abstract supertype Shape.
 
 How should you best pass the parameter?
  
-`antwoord`
+`const T&`
 
 ### Vraag 5
 You need to pass a bool to a function. The function does not need to store it somewhere, nor does it require write access.
 
 How should you best pass the parameter?
 
-`antwoord`
+`T`
 
 ### Vraag 6
 You are keeping a central Log object, which is used all over your codebase to write diagnostic messages to.
@@ -605,13 +609,6 @@ How should you best pass the parameter?
 
 ### Vraag 14
 You are writing a function that takes a std::vector<int> and returns the index of the largest element.
-
-How should you best pass the parameter?
-
-`const T&`
-
-### Vraag 15
-You are dealing with a class hierarchy of shapes, with abstract supertype Shape. A function needs to receive a shape but will not modify it in any way. The function does also not need to store the shape for layer.
 
 How should you best pass the parameter?
 
