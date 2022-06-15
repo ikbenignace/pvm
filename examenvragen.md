@@ -750,7 +750,7 @@ You are creating a function that reverses a std::vector<T> in place.
 
 Select all signatures that allow this functionality to be implemented.
 
-Options (select correct)
+
 
 ```	
 void reverse(std::vector<T>& xs)	
@@ -765,10 +765,9 @@ void reverse(std::unique_ptr<T> xs)
 
 You're making a game with different kinds of units (tanks, infantry, ...). The units are implemented as a class hierarchy with supertype Unit. You are writing a function render that draws the unit to the screen. No changes need to be made to the Unit object.
 
-```	
-void render(Unit)		
+answer 
+```		
 void render(Unit&)	
-void render(std::unique_ptr<Unit>)	
 void render(const Unit*)		
 void render(std::shared_ptr<Unit>)		
 void render(const Unit&)		
@@ -793,7 +792,7 @@ Select all signatures that allow this functionality to be implemented.
 Selected Answers:void clear_color(Shape)
 
 
-correct:
+answer:
 ```
 Shape*
 Shape&
