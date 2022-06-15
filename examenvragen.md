@@ -360,7 +360,7 @@ void foo(std::unique_ptr<T> x);
 const T* x;
 ```
 
-`antwoord`
+`None of the above works, or it's impossible`
 
 ### Vraag 3
 
@@ -369,7 +369,7 @@ void foo(std::unique_ptr<T> x);
 const T& x;
 ```
 
-`antwoord`
+`None of the above works, or it's impossible`
 
 ### Vraag 4
 
@@ -387,7 +387,7 @@ void foo(T x);
 const T x;
 ```
 
-`antwoord`
+`foo(x)`
 
 ### Vraag 6
 
@@ -396,7 +396,7 @@ void foo(T& x);
 T* x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 7
 
@@ -405,7 +405,7 @@ void foo(T x);
 std::unique_ptr<T> x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 8
 
@@ -414,7 +414,7 @@ void foo(T x);
 T* x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 9
 
@@ -423,7 +423,7 @@ void foo(const T* x);
 const T* x;
 ```
 
-`antwoord`
+`foo(x)`
 
 ### Vraag 10
 
@@ -432,7 +432,7 @@ void foo(T& x);
 std::shared_ptr<T> x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 11
 
@@ -441,7 +441,7 @@ void foo(const T& x);
 T& x;
 ```
 
-`antwoord`
+`foo(x)`
 
 ### Vraag 12
 
@@ -450,7 +450,7 @@ void foo(T* x);
 std::shared_ptr<T> x;
 ```
 
-`antwoord`
+`foo(&*x)`
 
 ### Vraag 13
 
@@ -459,7 +459,7 @@ void foo(const T& x);
 const T x;
 ```
 
-`antwoord`
+`foo(x)`
 
 ### Vraag 14
 
@@ -468,7 +468,7 @@ void foo(T* x);
 std::unique_ptr<T> x;
 ```
 
-`antwoord`
+`foo(&*x)`
 
 ### Vraag 15
 
@@ -579,7 +579,23 @@ T& x;
 `foo(&x)`
 
 
+### Vraag 27
 
+```cpp
+void foo(T* x);
+T& x;
+```
+
+`foo(*x)`
+
+### Vraag 28
+
+```cpp
+void foo(T& x);
+const T& x;
+```
+
+`None of the above works, or it's impossible`
 
 
 ## Pass function
