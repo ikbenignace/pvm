@@ -140,7 +140,7 @@ Antwoord: `char*`
 ### Vraag 8
 ![type8](/img/type8.png)        
 
-Antwoord: ``
+Antwoord: `char`
 ### Vraag 9
 ![type9](/img/type9.png)
 
@@ -198,7 +198,7 @@ Antwoord: `double**`
 ### Vraag 22
 ![type22](/img/type22.png)
 
-Antwoord: ``
+Antwoord: `double*`
 
 ### Vraag 23
 ![type23](/img/type23.png)
@@ -215,35 +215,35 @@ Antwoord: `double***`
 ### Vraag 1
 ![classes1](/img/classes1.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 2
 ![classes2](/img/classes2.png)
 
-Antwoord: ``
+Antwoord: `[]`
 ### Vraag 3
 ![classes3](/img/classes3.png)
 
-Antwoord: ``
+Antwoord: `[aa]cc`
 ### Vraag 4
 ![classes4](/img/classes4.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 5
 ![classes5](/img/classes5.png)
 
-Antwoord: ``
+Antwoord: `[ab]cc`
 ### Vraag 6
 ![classes6](/img/classes6.png)
 
-Antwoord: ``
+Antwoord: `[a]`
 ### Vraag 7
 ![classes7](/img/classes7.png)
 
-Antwoord: ``
+Antwoord: `[abc]c`
 ### Vraag 8
 ![classes8](/img/classes8.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 9
 ![classes9](/img/classes9.png)
 
@@ -251,11 +251,11 @@ Antwoord: ``
 ### Vraag 10
 ![classes10](/img/classes10.png)
 
-Antwoord: ``
+Antwoord: `[aac]c`
 ### Vraag 11
 ![classes11](/img/classes11.png)
 
-Antwoord: ``
+Antwoord: `[ac]`
 ### Vraag 12
 ![classes12](/img/classes12.png)
 
@@ -294,6 +294,30 @@ Antwoord: ``
 Antwoord: ``
 
 ## Code
+
+### Vraag 1
+![code1](/img/code1.png)
+``
+### Vraag 2
+![code2](/img/code2.png)
+``
+### Vraag 3
+![code3](/img/code3.png)
+``
+### Vraag 4
+![code4](/img/code4.png)
+``
+### Vraag 5
+![code5](/img/code5.png)
+``
+
+### Vraag 6
+![code6](/img/code6.png)
+``
+
+### Vraag 7
+![code7](/img/code7.png)
+``
 
 ## You are given
 
