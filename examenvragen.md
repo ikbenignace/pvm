@@ -148,7 +148,7 @@ Antwoord: `char**`
 ### Vraag 10
 ![type10](/img/type10.png)
 
-Antwoord: ``
+Antwoord: `char*`
 ### Vraag 11
 ![type11](/img/type11.png)
 
@@ -247,7 +247,7 @@ Antwoord: `[a]c`
 ### Vraag 9
 ![classes9](/img/classes9.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 10
 ![classes10](/img/classes10.png)
 
@@ -297,30 +297,39 @@ Antwoord: `[a]`
 
 ### Vraag 1
 ![code1](/img/code1.png)
+
 `a`
 ### Vraag 2
 ![code2](/img/code2.png)
+
 `c`
 ### Vraag 3
 ![code3](/img/code3.png)
+
 `b`
 ### Vraag 4
 ![code4](/img/code4.png)
-`e`
+
+`d`
+
 ### Vraag 5
 ![code5](/img/code5.png)
+
 `e`
 
 ### Vraag 6
 ![code6](/img/code6.png)
+
 `e`
 
 ### Vraag 7
 ![code7](/img/code7.png)
+
 `f`
 
 ### Vraag 8
 ![code8](/img/code8.png)
+
 `h`
 
 ## You are given
@@ -332,7 +341,7 @@ void foo(const T& x);
 std::unique_ptr<T> x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 2
 
@@ -359,7 +368,7 @@ void foo(T* x);
 const T& x;
 ```
 
-`antwoord`
+`None of the above works, or it's impossible`
 
 ### Vraag 5
 
@@ -467,7 +476,7 @@ void foo(T x);
 std::shared_ptr<T> x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 17
 
@@ -549,6 +558,16 @@ T* x;
 ```
 
 `foo(*x)`
+
+### Vraag 26
+
+```cpp
+void foo(T* x);
+T& x;
+```
+
+`foo(&x)`
+
 
 
 
@@ -701,13 +720,26 @@ void render(Unit*)
 
 You are creating a function count that counts the number of elements in std::vector<T>.
 
+correct items: (everything except unique_ptr)
+
 ```	
 int count(std::vector<T>)		
 int count(std::unique_ptr<std::vector<T>>)		
 int count(const std::vector<T>&)	
-std::unique_ptr<int> count(const std::vector<T>*)	
 int count(std::shared_ptr<std::vector<T>>)		
 int count(std::vector<T>*)	
 int count(std::vector<T>&)
+```
+
+You have a class hierarchy of shapes with abstract supertype Shape. You are writing a function clear_color that takes a shape and changes its color to transparent.
+Select all signatures that allow this functionality to be implemented.
+Selected Answers:void clear_color(Shape)
+
+
+correct:
+```
+Shape*
+Shape&
+shared_ptr
 ```
 
