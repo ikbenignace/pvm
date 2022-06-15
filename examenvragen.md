@@ -578,6 +578,14 @@ T& x;
 
 `foo(&x)`
 
+### Vraag 27
+
+```cpp
+void foo(const T& x);
+const T& x;
+```
+
+`foo(x)`
 
 ### Vraag 27
 
