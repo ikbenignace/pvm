@@ -29,6 +29,6 @@ struct Bar
 int main()
 {
     Foo foo;
-    Bar bar;
+    const Bar bar;
     bar.baz(&foo);
 }

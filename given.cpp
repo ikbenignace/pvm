@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <iostream>
 
-void foo(const int& x) {};
-int* x;
+void foo(int* x) {};
+int& x;
 
 int main()
 {

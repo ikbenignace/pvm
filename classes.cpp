@@ -27,14 +27,16 @@ struct Foo
 //     return &foo;
 // };
 
-void bar(Foo* foo) {}
+// void bar(Foo* foo) {}
+
+void bar(Foo& foo) {}
 
 int main()
 
 {
     P('[');
-    Foo* p = new Foo;
-    bar(p);
+    Foo foo;
+    bar(foo);
     P(']');
 }
 
