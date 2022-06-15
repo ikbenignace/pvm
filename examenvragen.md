@@ -342,6 +342,12 @@ Antwoord: `[abc]`
 
 `h`
 
+
+### Vraag 8b
+![code8b](/img/code8b.png)
+
+`f`
+
 ## You are given
 
 ### Vraag 1
