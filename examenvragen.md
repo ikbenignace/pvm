@@ -720,6 +720,13 @@ How should you best pass the parameter?
 
 `shared_ptr<T>`
 
+	
+### Vraag 16
+You need to pass a std::vector<double> to a function. The function stores it somewhere for later use and the same vector will still also be kept track of in other parts of the code.
+
+How should you best pass the parameter?
+
+`shared_ptr<T>`
 
 
 ## Reverse
