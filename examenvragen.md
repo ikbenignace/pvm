@@ -514,6 +514,45 @@ T x;
 
 `antwoord`
 
+### Vraag 22
+
+```cpp
+void foo(const std::unique_ptr<T> x);
+const T x;
+```
+
+`None of the above works, or it's impossible`
+
+### Vraag 23
+
+```cpp
+void foo(T x);
+const T* x;
+```
+
+`foo(*x)`
+
+### Vraag 24
+
+```cpp
+void foo(T x);
+const T* x;
+```
+
+`foo(x)`
+
+### Vraag 25
+
+```cpp
+void foo(const T& x);
+T* x;
+```
+
+`foo(*x)`
+
+
+
+
 ## Pass function
 
 ### Vraag 1
@@ -620,6 +659,13 @@ You are writing a function selectYoungerThan that takes a std::vector<Person*> a
 How should you best pass the parameter?
 
 `const T&` / `T`
+
+### Vraag 15
+You are creating a chess application. Pieces are represented by a Piece class, and each Piece object keeps track of an Image object that represents the piece visually. The same Image object is reused for pieces of the same type, e.g., all pawns use the same Image.
+
+How should you best pass the parameter?
+
+`shared_ptr<T>`
 
 
 
