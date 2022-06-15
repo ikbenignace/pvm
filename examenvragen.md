@@ -587,7 +587,7 @@ const T& x;
 
 `foo(x)`
 
-### Vraag 27
+### Vraag 28
 
 ```cpp
 void foo(T* x);
@@ -596,7 +596,7 @@ T& x;
 
 `foo(*x)`
 
-### Vraag 28
+### Vraag 29
 
 ```cpp
 void foo(T& x);
