@@ -751,21 +751,17 @@ You are creating a function that reverses a std::vector<T> in place.
 Select all signatures that allow this functionality to be implemented.
 
 
-
+answer:
 ```	
 void reverse(std::vector<T>& xs)	
-void reverse(const std::vector<T>* xs)
 void reverse(std::vector<T>* xs)	
 void reverse(std::shared_ptr<T> xs)	
-void reverse(const std::vector<T>& xs)		
-void reverse(std::vector<T> xs)		
-void reverse(std::unique_ptr<T> xs)
 ```
 
 
 You're making a game with different kinds of units (tanks, infantry, ...). The units are implemented as a class hierarchy with supertype Unit. You are writing a function render that draws the unit to the screen. No changes need to be made to the Unit object.
 
-answer 
+answer:
 ```		
 void render(Unit&)	
 void render(const Unit*)		
