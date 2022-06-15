@@ -35,3 +35,10 @@ Wat je dus altijd moet doen is het aantal sterretjes optellen of aftrekken.
 Dit is een iets moeilijker gedeelte, maar je kan wel bepaalde dingen meteen zien.
 
 Bij bijvoorbeeld Foo foo, wordt de constructor opgeroepen, toch als er geen parameters zijn, en wordt dat geprint, maar bij het eindigen van de functie wordt de Foo ook gedeconstruct (~Foo()), en wordt dit als hij uit de functie gaat, opgeroepen.
+
+
+# Pass function
+
+### Hulpmiddel
+
+![parameter-types](/img/parameter-types.png)

@@ -488,10 +488,6 @@ T x;
 
 ## Pass function
 
-### Hulpmiddel
-
-![parameter-types](/img/parameter-types.png)
-
 ### Vraag 1
 You need to pass a int to a function. The function does not need to store it somewhere, but it does need to modify its value.
 
