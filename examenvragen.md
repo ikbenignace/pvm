@@ -291,7 +291,7 @@ Antwoord: `[ac]`
 ### Vraag 20
 ![classes20](/img/classes20.png)
 
-Antwoord: `[a]`
+Antwoord: `[abc]`
 
 ## Code
 
