@@ -12,20 +12,25 @@ struct Foo
 //     return &foo;
 // };
 
+// Foo* bar(Foo* foo) {
+//     return foo;
+// };
+
+
 // Foo& bar(Foo foo) {
 //     return foo;
 // };
 
-// void bar(Foo* foo) {}
+void bar(Foo* foo) {}
 
-void bar() {Foo foo;}
+//void bar() {Foo foo;}
 
 int main()
 
 {
     P('[');
-    Foo foo;
-    bar();
+    Foo* p = new Foo;
+    bar(p);
     P(']');
 }
 

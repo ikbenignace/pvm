@@ -259,15 +259,15 @@ Antwoord: `[ac]`
 ### Vraag 12
 ![classes12](/img/classes12.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 13
 ![classes13](/img/classes13.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 14
 ![classes14](/img/classes14.png)
 
-Antwoord: ``
+Antwoord: `[abc]c`
 ### Vraag 15
 ![classes15](/img/classes15.png)
 
@@ -275,11 +275,11 @@ Antwoord: ``
 ### Vraag 16
 ![classes16](/img/classes16.png)
 
-Antwoord: ``
+Antwoord: `[a]c`
 ### Vraag 17
 ![classes17](/img/classes17.png)
 
-Antwoord: ``
+Antwoord: `[ac]`
 ### Vraag 18
 ![classes18](/img/classes18.png)
 
@@ -291,7 +291,7 @@ Antwoord: ``
 ### Vraag 20
 ![classes20](/img/classes20.png)
 
-Antwoord: ``
+Antwoord: `[a]`
 
 ## Code
 
