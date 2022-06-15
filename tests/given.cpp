@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <iostream>
 
-void foo(int* x);
-std::unique_ptr<int> x;
+void foo(const int* x);
+int& x;
 
 int main()
 {

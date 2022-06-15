@@ -477,7 +477,7 @@ void foo(const T& x);
 const T* x;
 ```
 
-`antwoord`
+`foo(*x)`
 
 ### Vraag 16
 
@@ -495,7 +495,7 @@ void foo(std::unique_ptr<T> x);
 T x;
 ```
 
-`antwoord`
+`None of the above works, or it's impossible`
 
 ### Vraag 18
 
@@ -662,7 +662,7 @@ You are writing a function that takes a std::vector<double> and removes all nega
 
 How should you best pass the parameter?
 
-`antwoord`
+`T*`
 
 ### Vraag 9
 You are creating a templated collection class (such as std::vector<T>). The add method takes an element and copies it to its internal data structure.
@@ -697,7 +697,7 @@ You need to pass a std::vector<int> to a function. The function does not need to
 
 How should you best pass the parameter?
 
-`antwoord`
+`T*`
 
 ### Vraag 14
 You are writing a function that takes a std::vector<int> and returns the index of the largest element.
@@ -715,6 +715,14 @@ How should you best pass the parameter?
 
 ### Vraag 15
 You are creating a chess application. Pieces are represented by a Piece class, and each Piece object keeps track of an Image object that represents the piece visually. The same Image object is reused for pieces of the same type, e.g., all pawns use the same Image.
+
+How should you best pass the parameter?
+
+`shared_ptr<T>`
+
+### Vraag 16
+	
+You are storing a family tree. Each child needs to keep track of both of its parents. We do not want to deal manually with memory management.
 
 How should you best pass the parameter?
 

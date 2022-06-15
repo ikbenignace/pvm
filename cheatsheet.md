@@ -18,7 +18,7 @@ Je kan gebruik maken van de volgende operators.
 Je kan best eens kijken naar de oplossingen van de examenvragen. 
 Als je bijvoorbeeld iets wilt optellen, kan je beter `|` gebruiken.
 Voor zo getallen met heel veel nullen best die `&`.
-Als je een hexadecimaal cijfer naar links wil shiften is het `<<` met 8, `>>` voor naar rechts te shiften.
+Als je een hexadecimaal cijfer naar links wil shiften is het `<<` met 4, `>>` voor naar rechts te shiften.
 
 # Types
 
