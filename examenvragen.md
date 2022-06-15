@@ -813,7 +813,7 @@ correct items: (everything except unique_ptr)
 
 ```	
 int count(std::vector<T>)		
-int count(std::unique_ptr<std::vector<T>>)		
+std::unique_ptr<int> count(const std::vector<T>*)		
 int count(const std::vector<T>&)	
 int count(std::shared_ptr<std::vector<T>>)		
 int count(std::vector<T>*)	
