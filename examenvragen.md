@@ -690,7 +690,7 @@ You create your own version of std::vector<T>. Internally, you rely on an array 
 
 How should you best pass the parameter?
 
-`antwoord`
+`unique_ptr<T>`
 
 ### Vraag 11
 You are writing a function with type parameter T. The function expects a value of type T, but only for reading purposes. The function does not store the value for later use.
